@@ -1,12 +1,28 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+}
 
-#nav-bar, header {
-     display: none; /*change later */
-    position: fixed;
+#header {
+}
+
+#header-img {
+}
+
+#nav-bar {
+}
+
+.nav-link {
+}
+
+#nav-bar,
+header {
+    /* position: fixed; */
     top: 0;
     z-index: 1;
     background-color: black;
@@ -14,4 +30,62 @@
 
 .features {
     display: flex;
+}
+
+.features-container1 {
+}
+
+.video1 {
+}
+.features-container2 {
+}
+
+.video2 {
+}
+.features-container3 {
+}
+
+.video3 {
+}
+
+.video-title {
+}
+
+.video-description {
+}
+
+#form {
+}
+
+.news {
+}
+
+.updates {
+}
+
+.white {
+}
+
+#submit {
+}
+
+#footer {
+}
+
+.requirements {
+}
+
+.minimum-box {
+}
+
+.minimum-title {
+}
+
+.req-info {
+}
+
+.maximum-box {
+}
+
+.maximum-title {
 }
