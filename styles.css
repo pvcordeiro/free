@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
-#nav-bar {
+#nav-bar, header {
+     display: none; /*change later */
     position: fixed;
     top: 0;
     z-index: 1;
+    background-color: black;
+}
+
+.features {
+    display: flex;
 }
